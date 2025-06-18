@@ -10,6 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "next.js": "^1.0.3",
-    "react": "^19.1.0"
+    "playwright": "^1.53.0",
+    "puppeteer": "^24.10.1",
+    "react": "^19.1.0",
+    "react-router": "^7.6.2"
   }
 }
