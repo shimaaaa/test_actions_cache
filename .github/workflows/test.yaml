@@ -16,7 +16,7 @@ jobs:
         id: cache-node-modules
         uses: actions/cache@v4
         with:
-          path: ./node_modules
+          path: node_modules
           key: ${{ runner.os }}-${{ hashFiles('package-lock.json') }}
   test:
     runs-on: ubuntu-latest
